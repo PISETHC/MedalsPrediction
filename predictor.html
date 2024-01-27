@@ -1,0 +1,31 @@
+<!-- templates/predictor.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Predictor - Olympic Medals Prediction</title>
+    <!-- Link to your external CSS file -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='predictor.css') }}"
+    />
+  </head>
+  <body class="background-container">
+    <h1>Predictor - Olympic Medals Prediction</h1>
+    <form action="/predict" method="post">
+      <label for="athletes">Number of Athletes:</label>
+      <input type="text" name="athletes" required />
+      <br />
+      <label for="prev_medals">Previous Medals:</label>
+      <input type="text" name="prev_medals" required />
+      <br />
+      <button type="submit">Predict</button>
+    </form>
+    <!-- Add a "Previous" button -->
+    <a href="/">Previous</a>
+  </body>
+</html>

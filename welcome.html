@@ -1,0 +1,24 @@
+<!-- templates/welcome.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome - Olympic Medals Prediction</title>
+    <!-- Link to your external CSS file -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='welcome.css') }}"
+    />
+  </head>
+  <body class="background-container">
+    <h1>Welcome to Olympic Medals Prediction</h1>
+    <div class="options">
+      <a href="/predictor">Predict</a>
+      <a href="/datasets">Datasets</a>
+    </div>
+  </body>
+</html>

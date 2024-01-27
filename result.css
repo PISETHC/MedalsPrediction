@@ -1,0 +1,34 @@
+/* static/result.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("olympic-medal-1200x628-1.jpg"); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1, p {
+    color: white; /* White text color */
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8); /* Black text shadow */
+}
+
+button {
+    color: hsl(0, 92%, 51%); /* Button text color */
+    background-color: hsla(164, 60%, 42%, 0.286); /* Button background color */
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: red; /* Button background color on hover */
+    color: white; /* Button text color on hover */
+}

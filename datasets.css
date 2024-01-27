@@ -1,0 +1,30 @@
+/* static/datasets.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.datasets-header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.datasets-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.datasets-table th, .datasets-table td {
+    border: 1px solid hsl(0, 0%, 0%);
+    padding: 10px;
+    text-align: left;
+}
+
+.datasets-table th {
+    background-color: #779693;
+}
